@@ -1,5 +1,5 @@
 fun main() {
-    val num = readln().toLong()
+    println("Enter your number")
     val result = ((num * (num + 1 )) / 2)
     println(result)
 }
