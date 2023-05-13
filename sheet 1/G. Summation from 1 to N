@@ -1,8 +1,5 @@
 fun main() {
-    val (a, b) = readln().split(" ")
-    if (a.toInt() % b.toInt() == 0 || b.toInt() % a.toInt() == 0) {
-        println("Multiples")
-    } else {
-        println("No Multiples")
-    }
+    val num = readln()
+    val result = ((num * (num + 1 )) / 2)
+    println(result)
 }
