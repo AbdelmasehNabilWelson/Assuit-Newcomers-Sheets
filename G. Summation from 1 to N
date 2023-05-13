@@ -1,4 +1,0 @@
-fun main() {
-    val num = readln().toLong()
-    println((num * (num + 1 )) / 2)
-}
